@@ -1,5 +1,5 @@
-body { background-color: rgb(255, 0, 200);
-    color: rgb(15, 15, 14);
+body { background-color: rgb(165, 20, 20);
+    color: rgb(0, 0, 0);
     font-size: 20px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     justify-content: center;
@@ -13,3 +13,16 @@ body { background-color: rgb(255, 0, 200);
       margin: 0 16px;
       padding: 100px 0;
       font-size: 40px;}
+
+      .cabecalho
+      {background-color: rgb(255, 0, 0);
+        color: black; 
+        display: flex;
+        justify-content: space-around;
+        padding: auto;}
+
+        .cabecalho-item
+        {display: inline-block;
+        margin: 0 16px;
+      padding: 24px 0;
+    font-size: 24px;}
