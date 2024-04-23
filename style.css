@@ -1,40 +1,67 @@
-body { background-color: rgb(165, 20, 20);
-    color: rgb(0, 0, 0);
+body { background-color: rgb(119, 9, 9);
+    color: rgb(15, 15, 14);
     font-size: 20px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     justify-content: center;
     justify-items: center;
     text-align: center;
-} .imagem-cabecalho{width: 200px;}
+} 
+
+.imagem-cabecalho{width: 200px;}
 
 
-.título-cabecalho
-   {display: inline-block;
-      margin: 0 16px;
-      padding: 100px 0;
-      font-size: 40px;}
+.titulocabecalho
+{display: inline-block;
+  margin:0 16px;
+  padding: 100px 0;
+  font-size: 40px;}
 
-      .cabecalho
-      {background-color: rgb(255, 0, 0);
-        color: black; 
-        display: flex;
-        justify-content: space-around;
-        padding: auto;}
 
-        .cabecalho-item
-        {display: inline-block;
-        margin: 0 16px;
-      padding: 24px 0;
+  .cabecalho{
+  background-color: rgb(27, 117, 197);
+  color: blue;
+  display: flex;
+  justify-content: space-around;
+  padding: 24px 0;}
+
+
+   .cabecalho-item
+  {display: inline-block;
+    margin: 0  16px;
+    padding: 24px 0;
     font-size: 24px;}
+  
+  
+  .escola-imagem{
+    width: 25%;
+  }
 
-    .escola-imagem{
-      width: 25%;
-    }
-
-    .escola {
-      background-image: linear-gradient(red,black);
-      color: white;
+  .escola{
+      background-image: linear-gradient(rgb(248, 10, 10), rgb(250, 250, 252));
+      color: black;
       display: flex;
       justify-content: center;
       align-items: center;
-      padding: 24px 0;}
+      padding: 24px 0;
+  }
+
+  .escola-conteudo
+  {width: 50%;}
+
+  .escola-titulo
+  {padding: 50px 30px; 
+   font-family: Verdana, Geneva, Tahoma, sans-serif;}
+
+
+
+
+   .aluno-um{
+    width: 40%;
+    height: 220%;
+   }
+
+   .estudante-titulo{
+    text-align: center;
+    padding: 50px 0;
+    font-size: 30px;
+   }
